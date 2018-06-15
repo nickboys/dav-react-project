@@ -50,12 +50,14 @@ $ cnpm install babel-plugin-import
 import React from 'react';
 
 const Products = (props) => (
-<h2>List of Products</h2>
+  
 );
 
 export default Products;
 
-添加路由信息到路由表，编辑 router.js :
+
+
+4.添加路由信息到路由表，编辑 router.js :
 import React from 'react';
 import { Router, Route, Switch } from 'dva/router';
 import IndexPage from './routes/IndexPage';
