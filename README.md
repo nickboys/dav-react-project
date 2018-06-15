@@ -58,11 +58,10 @@ export default Products;
 
 
 4.添加路由信息到路由表，编辑 router.js :
+
 import React from 'react';
 import { Router, Route, Switch } from 'dva/router';
 import IndexPage from './routes/IndexPage';
-
-
 import Products from './routes/Products';
 
 function RouterConfig({ history }) {
@@ -76,4 +75,4 @@ function RouterConfig({ history }) {
 }
 
 export default RouterConfig;
-然后在浏览器里打开 http://localhost:8000/#/products ，你应该能看到前面定义的 <h2> 标签。
+然后在浏览器里打开 http://localhost:8000/#/products 
